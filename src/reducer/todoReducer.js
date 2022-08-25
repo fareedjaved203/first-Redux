@@ -7,7 +7,7 @@ const TodoReducer = (state = initialState, action) => {
     case "ADD":
       const { id, data } = action.payload;
       return {
-        //dont know why this is used
+        //dont know why this is used ...state
         ...state,
         list: [
           ...state.list,
